@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# ADK specific
+.adk/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.backup
+*.backup*
+kisan_mitra/agent.py.backup*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Playwright
+playwright/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/ 
+# Process ID files
+*.pid
+.adk_pid
+.ngrok_pid
+.whatsapp_pid
+
+# Runtime configuration
+.system_urls
+
+# Google Cloud Service Account (sensitive)
+*.json
+
+# Backup and temporary files
+*_backup.py
+*_fixed.py
