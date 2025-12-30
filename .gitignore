@@ -102,3 +102,6 @@ coverage.xml
 # Backup and temporary files
 *_backup.py
 *_fixed.py
+
+# Generated voice files
+staticv2/

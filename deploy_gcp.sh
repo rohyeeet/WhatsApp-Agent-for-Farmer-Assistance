@@ -1,40 +1,37 @@
 #!/bin/bash
-# Deployment script for Kisan Mitra on Google Cloud Run
-
-set -e
-
-# Load environment variables from .env
-if [ -f .env ]; then
-    echo "🔑 Loading environment variables from .env..."
-    export $(cat .env | grep -v '^#' | xargs)
-else
-    echo "⚠️ .env file not found/loaded!"
-fi
-
-PROJECT_ID=$(gcloud config get-value project)
-REGION="asia-south1" 
-SERVICE_NAME="kisan-mitra-bot"
-IMAGE_NAME="gcr.io/$PROJECT_ID/$SERVICE_NAME"
 
 echo "🚀 Deploying Kisan Mitra to Google Cloud Run..."
-echo "Project: $PROJECT_ID"
-echo "Region: $REGION"
 
-# 1. Build and Push Image
-echo "🔨 Building Container Image..."
-gcloud builds submit --tag $IMAGE_NAME .
+# Check if gcloud is installed
+if ! command -v gcloud &> /dev/null; then
+    echo "❌ Error: 'gcloud' CLI is not found."
+    echo "Please install Google Cloud SDK: https://cloud.google.com/sdk/docs/install"
+    exit 1
+fi
 
-# 2. Deploy to Cloud Run
-echo "☁️ Deploying to Cloud Run..."
-# We explicitly pass the critical API keys and timeout
-gcloud run deploy $SERVICE_NAME \
-    --image $IMAGE_NAME \
+# Ask for Project ID if not set
+if [ -z "$GOOGLE_CLOUD_PROJECT" ]; then
+    read -p "Enter your Google Cloud Project ID: " PROJECT_ID
+    gcloud config set project $PROJECT_ID
+else
+    PROJECT_ID=$GOOGLE_CLOUD_PROJECT
+    echo "✅ Using Project ID: $PROJECT_ID"
+fi
+
+# Enable necessary services
+echo "🔄 Enabling Cloud Run and Container Registry APIs..."
+gcloud services enable run.googleapis.com containerregistry.googleapis.com
+
+# Deploy
+echo "📦 Building and Deploying..."
+gcloud run deploy kisan-mitra-bot \
+    --source . \
     --platform managed \
-    --region $REGION \
+    --region us-central1 \
     --allow-unauthenticated \
-    --port 8080 \
-    --timeout=300 \
-    --set-env-vars="TWILIO_ACCOUNT_SID=$TWILIO_ACCOUNT_SID,TWILIO_AUTH_TOKEN=$TWILIO_AUTH_TOKEN,TWILIO_PHONE_NUMBER=$TWILIO_PHONE_NUMBER,GOOGLE_API_KEY=$GOOGLE_API_KEY,ELEVENLABS_API_KEY=$ELEVENLABS_API_KEY"
+    --port 8000 \
+    --set-env-vars "$(cat .env | grep -v '^#' | xargs | sed 's/ /,/g')"
 
 echo "✅ Deployment Complete!"
-echo "Get your Service URL from the output above and update Twilio Webhook."
+echo "🌍 Your Service URL is displayed above."
+echo "👉 Don't forget to update your Twilio Webhook URL!"

@@ -1,0 +1,14 @@
+# Exclude version control and environments
+.git/
+.venv/
+__pycache__/
+
+# Exclude large logs
+*.log
+ngrok.log
+adk_final.log
+
+# Exclude local caches
+.pytest_cache/
+.coverage
+htmlcov/
