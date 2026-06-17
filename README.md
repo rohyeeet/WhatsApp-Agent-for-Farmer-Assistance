@@ -21,7 +21,7 @@ Kisan Mitra is an advanced multilingual agricultural assistant built using Googl
 - **👤 Farmer Profiles**: Personalized advice based on farmer's location, crops, and resources
 
 ## 🔧 Technical Architecture
-
+<img width="1461" height="825" alt="image" src="https://github.com/user-attachments/assets/bfd9cf0d-b494-4d77-a6d6-c9f16ab78be5" />
 ### Core Technologies
 - **Google ADK (Agent Development Kit)**: Advanced AI agent framework
 - **Gemini 2.0 Flash**: Latest multimodal AI model with vision capabilities
