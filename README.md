@@ -12,12 +12,22 @@ Kisan Mitra is an advanced multilingual agricultural assistant built using Googl
 
 ### 🌟 Key Features
 
+<img width="934" height="336" alt="image" src="https://github.com/user-attachments/assets/c33d981b-7d38-42a1-8b9c-fb4549fe56f8" />
 - **🌦️ Weather Intelligence**: Real-time weather updates and agricultural forecasts
+  
 - **📅 Farming Calendar**: Comprehensive seasonal farming advice and crop-specific guidance
+
+<img width="918" height="579" alt="image" src="https://github.com/user-attachments/assets/ba59a4dc-9d78-47fb-9fdb-fbc05dd8cf7e" />
 - **🏛️ Government Schemes**: Complete database of agricultural schemes and subsidies
+  
 - **💰 Market Intelligence**: Live mandi prices and commodity market trends
+  
+<img width="928" height="789" alt="image" src="https://github.com/user-attachments/assets/20efd6df-f39b-48b6-baae-cb3d68fe8f99" />
+<img width="931" height="799" alt="image" src="https://github.com/user-attachments/assets/350b61d5-189f-4457-938d-bad66a266e8b" />
 - **🌱 Disease Detection**: AI-powered crop disease diagnosis with image analysis
-- **🗣️ Multilingual Support**: Primary support in Hindi with regional language capabilities
+
+  <img width="933" height="369" alt="image" src="https://github.com/user-attachments/assets/098a37c3-da7b-476c-a623-e0c7deda81f5" />
+- **🗣️ Multilingual & Voice-to-Voice Support**: Native Hindi support with regional language capabilities, enabling seamless voice-based interactions through Gemini-powered Speech-to-Text (STT) and Text-to-Speech (TTS) services.
 - **👤 Farmer Profiles**: Personalized advice based on farmer's location, crops, and resources
 
 ## 🔧 Technical Architecture
