@@ -1,0 +1,122 @@
+[
+  {
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "slug": "pm-kisan",
+    "category": "Income Support",
+    "description": "Direct income support of Rs. 6000 per year to small and marginal farmers.",
+    "eligibility": "Small and marginal farmers with cultivable land up to 2 hectares. Must be Indian citizen.",
+    "benefits": "Rs. 6000 per year in 3 equal installments of Rs. 2000 directly to bank account.",
+    "application_process": "Register on pmkisan.gov.in or visit nearest CSC/Village Level Entrepreneur.",
+    "documents_required": ["Aadhaar Card", "Bank Passbook", "Land Records (Khatauni)", "Mobile Number"],
+    "official_website": "https://pmkisan.gov.in",
+    "ministry": "Ministry of Agriculture & Farmers Welfare"
+  },
+  {
+    "name": "PM Fasal Bima Yojana (PMFBY)",
+    "slug": "pmfby",
+    "category": "Crop Insurance",
+    "description": "Comprehensive crop insurance scheme covering losses from natural calamities, pests and diseases.",
+    "eligibility": "All farmers (loanee and non-loanee) growing notified crops in notified areas.",
+    "benefits": "Insurance coverage for crop loss with minimal premium: 2% for Kharif, 1.5% for Rabi, 5% for Horticulture.",
+    "application_process": "Apply through bank, insurance company, or CSC before cutoff date for each season.",
+    "documents_required": ["Aadhaar Card", "Bank Account Details", "Land Records", "Sowing Certificate"],
+    "official_website": "https://pmfby.gov.in",
+    "ministry": "Ministry of Agriculture & Farmers Welfare"
+  },
+  {
+    "name": "Kisan Credit Card (KCC)",
+    "slug": "kcc",
+    "category": "Credit & Finance",
+    "description": "Flexible credit facility for farmers to meet agricultural expenses at low interest rates.",
+    "eligibility": "Farmers, tenant farmers, oral lessees, share croppers, and SHGs/JLGs of farmers.",
+    "benefits": "Credit limit up to Rs. 3 lakh at 7% interest (with 3% subvention = effective 4%). Higher limits for larger farms.",
+    "application_process": "Apply at nearest bank branch or cooperative society with land documents.",
+    "documents_required": ["Identity Proof", "Address Proof", "Land Records", "Passport Photos"],
+    "official_website": "https://www.nabard.org",
+    "ministry": "Ministry of Finance / NABARD"
+  },
+  {
+    "name": "Soil Health Card Scheme",
+    "slug": "soil-health-card",
+    "category": "Soil Management",
+    "description": "Provides farmers a Soil Health Card with crop-wise recommendations for nutrients and fertilizers.",
+    "eligibility": "All farmers across India.",
+    "benefits": "Free soil testing, personalized fertilizer recommendations, improved yields, reduced input costs.",
+    "application_process": "Contact local agriculture department or KVK for soil sample collection.",
+    "documents_required": ["Land Records", "Aadhaar Card"],
+    "official_website": "https://soilhealth.dac.gov.in",
+    "ministry": "Ministry of Agriculture & Farmers Welfare"
+  },
+  {
+    "name": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+    "slug": "pmksy",
+    "category": "Irrigation",
+    "description": "Har Khet Ko Pani - Ensures irrigation access to every farm, promotes water-use efficiency.",
+    "eligibility": "All farmers with agricultural land.",
+    "benefits": "Subsidy on micro-irrigation (drip/sprinkler), watershed development, water conservation.",
+    "application_process": "Apply through district agriculture office or horticulture department.",
+    "documents_required": ["Aadhaar Card", "Land Records", "Bank Account Details"],
+    "official_website": "https://pmksy.gov.in",
+    "ministry": "Ministry of Agriculture & Farmers Welfare"
+  },
+  {
+    "name": "eNAM (National Agriculture Market)",
+    "slug": "enam",
+    "category": "Market Linkage",
+    "description": "Online trading platform connecting farmers directly to buyers across India.",
+    "eligibility": "All registered farmers in participating states.",
+    "benefits": "Better price discovery, transparent trading, direct access to multiple buyers, digital payments.",
+    "application_process": "Register at enam.gov.in or nearest APMC market committee.",
+    "documents_required": ["Aadhaar Card", "Bank Account (with IFSC)", "Mobile Number"],
+    "official_website": "https://enam.gov.in",
+    "ministry": "Ministry of Agriculture & Farmers Welfare"
+  },
+  {
+    "name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+    "slug": "pkvy",
+    "category": "Organic Farming",
+    "description": "Promotes organic farming through cluster-based approach and certification support.",
+    "eligibility": "Farmers willing to adopt organic farming in clusters of 50 acres minimum.",
+    "benefits": "Rs. 50,000 per hectare over 3 years for organic inputs, certification, and marketing support.",
+    "application_process": "Form groups of 50 farmers, apply through district agriculture office.",
+    "documents_required": ["Land Records", "Aadhaar Card", "Bank Account Details"],
+    "official_website": "https://pgsindia-ncof.gov.in",
+    "ministry": "Ministry of Agriculture & Farmers Welfare"
+  },
+  {
+    "name": "Agriculture Infrastructure Fund (AIF)",
+    "slug": "aif",
+    "category": "Post-Harvest Infrastructure",
+    "description": "Financing facility for viable projects for post-harvest management and community farming assets.",
+    "eligibility": "Farmers, FPOs, SHGs, cooperatives, agri-entrepreneurs, startups.",
+    "benefits": "Loans up to Rs. 2 crore with 3% interest subvention and credit guarantee coverage.",
+    "application_process": "Apply through banks or agri-infra.dac.gov.in portal.",
+    "documents_required": ["Project Report", "Land Records", "Bank Details", "GST Registration (if applicable)"],
+    "official_website": "https://agriinfra.dac.gov.in",
+    "ministry": "Ministry of Agriculture & Farmers Welfare"
+  },
+  {
+    "name": "National Beekeeping & Honey Mission (NBHM)",
+    "slug": "nbhm",
+    "category": "Allied Agriculture",
+    "description": "Supports development of scientific beekeeping and honey production for additional farmer income.",
+    "eligibility": "Farmers, unemployed youth, SHGs, FPOs interested in beekeeping.",
+    "benefits": "Subsidy on bee boxes, colonies, extraction equipment, training and skill development.",
+    "application_process": "Apply through district horticulture officer or KVIC/Khadi board.",
+    "documents_required": ["Aadhaar Card", "Bank Account", "Land Records"],
+    "official_website": "https://nbb.gov.in",
+    "ministry": "Ministry of Agriculture & Farmers Welfare"
+  },
+  {
+    "name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+    "slug": "rkvy",
+    "category": "General Agriculture Development",
+    "description": "Holistic development of agriculture and allied sectors to ensure farmer income growth.",
+    "eligibility": "State governments apply on behalf of farmers; individual farmers benefit through state schemes.",
+    "benefits": "Funding for infrastructure, skill development, value chain projects, agri-tech startups (RAFTAAR).",
+    "application_process": "Through state agriculture department projects.",
+    "documents_required": "Varies by project",
+    "official_website": "https://rkvy.nic.in",
+    "ministry": "Ministry of Agriculture & Farmers Welfare"
+  }
+]

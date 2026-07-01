@@ -1,0 +1,650 @@
+{
+  "farming_calendar": {
+    "month_1": {
+      "month_name": "January",
+      "hindi_name": "जनवरी",
+      "season": "Rabi (Winter)",
+      "temperature_range": "5-20°C",
+      "rainfall_pattern": "Occasional western disturbances",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Wheat",
+            "growth_stage": "Tillering to Jointing",
+            "activities": ["Top-dress with Urea (40 kg/acre)", "Irrigate at crown root stage", "Monitor for yellow rust", "Weed control"],
+            "fertilizer_schedule": "Top dress with 40 kg Urea/acre at tillering",
+            "expected_yield_per_acre": "18-22 quintals"
+          },
+          {
+            "crop_name": "Mustard",
+            "growth_stage": "Flowering to Pod Formation",
+            "activities": ["Irrigation at flowering stage", "Monitor for aphids", "Apply boron if deficient"],
+            "fertilizer_schedule": "Foliar spray of boron at flowering",
+            "expected_yield_per_acre": "6-8 quintals"
+          },
+          {
+            "crop_name": "Gram (Chickpea)",
+            "growth_stage": "Vegetative to Flowering",
+            "activities": ["Light irrigation if needed", "Monitor for pod borer", "No excess nitrogen"],
+            "fertilizer_schedule": "Avoid heavy N application",
+            "expected_yield_per_acre": "6-8 quintals"
+          }
+        ],
+        "vegetable_crops": [
+          {
+            "crop_name": "Potato",
+            "growth_stage": "Tuber Formation",
+            "activities": ["Earthing up", "Irrigation every 10 days", "Monitor for late blight"],
+            "fertilizer_schedule": "Potash application for tuber quality",
+            "expected_yield_per_acre": "80-100 quintals"
+          },
+          {
+            "crop_name": "Pea",
+            "growth_stage": "Fruiting",
+            "activities": ["Light irrigation", "Harvest when pods are tender", "Monitor for powdery mildew"],
+            "fertilizer_schedule": "Foliar urea spray",
+            "expected_yield_per_acre": "25-35 quintals"
+          }
+        ],
+        "sowing_preparation": [
+          {
+            "crop_name": "Onion (Kharif nursery planning)",
+            "activities": ["Plan seeds for April sowing", "Prepare nursery beds"],
+            "fertilizer_schedule": "Add FYM to nursery beds"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Wheat Yellow Rust", "Mustard Aphid", "Potato Late Blight"],
+        "recommended_actions": ["Weekly scouting", "Apply fungicide at first sign of rust", "Spray Malathion for aphids"]
+      },
+      "weather_considerations": {
+        "frost_risk": "High in North India",
+        "irrigation_frequency": "Every 20-25 days",
+        "special_notes": "Cover sensitive crops during frost nights"
+      },
+      "regional_variations": {
+        "North India (UP, Punjab, Haryana)": "Focus on wheat and mustard management",
+        "South India": "Begin summer vegetable sowing",
+        "Eastern India": "Boro rice transplanting"
+      },
+      "market_trends": {
+        "in_demand": ["Peas", "Potato", "Cauliflower"],
+        "price_outlook": "Vegetables command good prices"
+      }
+    },
+    "month_2": {
+      "month_name": "February",
+      "hindi_name": "फरवरी",
+      "season": "Rabi (Late Winter)",
+      "temperature_range": "10-25°C",
+      "rainfall_pattern": "Decreasing western disturbances",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Wheat",
+            "growth_stage": "Jointing to Booting",
+            "activities": ["Second irrigation", "Monitor for powdery mildew", "Apply fungicide if needed"],
+            "fertilizer_schedule": "Last top dressing with Urea if required",
+            "expected_yield_per_acre": "18-22 quintals"
+          },
+          {
+            "crop_name": "Mustard",
+            "growth_stage": "Pod Filling",
+            "activities": ["Reduce irrigation", "Harvest when 75% pods turn golden"],
+            "fertilizer_schedule": "No fertilizer needed",
+            "expected_yield_per_acre": "6-8 quintals"
+          }
+        ],
+        "sowing": [
+          {
+            "crop_name": "Watermelon/Muskmelon",
+            "activities": ["Sow in protected nursery in North India", "Direct sow in South India"],
+            "fertilizer_schedule": "Apply basal FYM and DAP"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Wheat Brown Rust", "Aphids on Mustard"],
+        "recommended_actions": ["Propiconazole spray for rust", "Thiamethoxam for aphids"]
+      },
+      "weather_considerations": {
+        "frost_risk": "Decreasing",
+        "irrigation_frequency": "Every 15-20 days",
+        "special_notes": "Begin planning for summer crops"
+      }
+    },
+    "month_3": {
+      "month_name": "March",
+      "hindi_name": "मार्च",
+      "season": "Spring / Rabi Harvest",
+      "temperature_range": "15-35°C",
+      "rainfall_pattern": "Dry with occasional thunderstorms",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Wheat",
+            "growth_stage": "Heading to Ripening",
+            "activities": ["Stop irrigation 2 weeks before harvest", "Protect from hailstorm", "Arrange harvesting equipment"],
+            "fertilizer_schedule": "No fertilizer",
+            "expected_yield_per_acre": "18-22 quintals"
+          },
+          {
+            "crop_name": "Mustard",
+            "growth_stage": "Harvest",
+            "activities": ["Harvest when moisture is 14-16%", "Thresh and clean", "Sell in mandi"],
+            "fertilizer_schedule": "None",
+            "expected_yield_per_acre": "6-8 quintals"
+          }
+        ],
+        "sowing": [
+          {
+            "crop_name": "Mung Bean (Summer)",
+            "activities": ["Prepare field after wheat harvest", "Sow in late March"],
+            "fertilizer_schedule": "20 kg N + 40 kg P2O5 per acre"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Wheat Karnal Bunt", "Locust in some regions"],
+        "recommended_actions": ["Propiconazole at heading", "Report locust sightings"]
+      },
+      "weather_considerations": {
+        "hailstorm_risk": "High",
+        "irrigation_frequency": "Reduce for rabi; increase for vegetables",
+        "special_notes": "Arrange tarpaulins for wheat protection"
+      }
+    },
+    "month_4": {
+      "month_name": "April",
+      "hindi_name": "अप्रैल",
+      "season": "Summer (Zaid) Begins",
+      "temperature_range": "25-40°C",
+      "rainfall_pattern": "Dry - Pre-monsoon heat",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Summer Mung (Moong)",
+            "growth_stage": "Sowing to Emergence",
+            "activities": ["Sow treated seeds", "Apply pre-emergence herbicide", "First irrigation after sowing"],
+            "fertilizer_schedule": "Basal dose: DAP 50 kg/acre",
+            "expected_yield_per_acre": "4-5 quintals"
+          },
+          {
+            "crop_name": "Sunflower",
+            "growth_stage": "Vegetative",
+            "activities": ["Thinning", "Weeding", "Irrigation every 10 days"],
+            "fertilizer_schedule": "Top dress with urea",
+            "expected_yield_per_acre": "5-6 quintals"
+          }
+        ],
+        "vegetable_crops": [
+          {
+            "crop_name": "Bottle Gourd / Ridge Gourd",
+            "growth_stage": "Sowing",
+            "activities": ["Prepare raised beds", "Sow seeds", "Erect trellis"],
+            "fertilizer_schedule": "FYM + NPK basal"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Termites", "Aphids on Moong"],
+        "recommended_actions": ["Seed treatment with Imidacloprid", "Chlorpyrifos for termites"]
+      },
+      "weather_considerations": {
+        "heat_stress_risk": "High",
+        "irrigation_frequency": "Every 7-10 days",
+        "special_notes": "Irrigate in early morning or evening to reduce evaporation"
+      }
+    },
+    "month_5": {
+      "month_name": "May",
+      "hindi_name": "मई",
+      "season": "Peak Summer",
+      "temperature_range": "35-45°C",
+      "rainfall_pattern": "Dry / Hot winds (Loo)",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Summer Mung",
+            "growth_stage": "Flowering to Pod Formation",
+            "activities": ["Monitor for yellow mosaic virus", "Irrigation at flowering", "Spray insecticide for pod borer"],
+            "fertilizer_schedule": "Foliar spray of micronutrients",
+            "expected_yield_per_acre": "4-5 quintals"
+          }
+        ],
+        "preparation": [
+          {
+            "crop_name": "Paddy Nursery Preparation",
+            "activities": ["Prepare nursery beds", "Soak seeds for 24 hours", "Select disease-free varieties"],
+            "fertilizer_schedule": "Apply FYM in nursery bed"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Loo (Hot wind) damage", "Virus diseases via whitefly"],
+        "recommended_actions": ["Irrigation at critical stages", "Imidacloprid spray for whitefly"]
+      },
+      "weather_considerations": {
+        "heat_stress_risk": "Very High",
+        "irrigation_frequency": "Every 5-7 days",
+        "special_notes": "Prepare land for Kharif sowing. Apply green manure crops."
+      }
+    },
+    "month_6": {
+      "month_name": "June",
+      "hindi_name": "जून",
+      "season": "Kharif Begins / Monsoon Onset",
+      "temperature_range": "30-40°C",
+      "rainfall_pattern": "Monsoon arrives (mid-June in North India)",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Paddy (Rice)",
+            "growth_stage": "Nursery Sowing",
+            "activities": ["Sow nursery", "Apply Chlorpyrifos to prevent stem borer in nursery", "Keep nursery moist"],
+            "fertilizer_schedule": "Nursery bed application of 20 kg Urea/acre",
+            "expected_yield_per_acre": "18-25 quintals"
+          },
+          {
+            "crop_name": "Maize",
+            "growth_stage": "Sowing",
+            "activities": ["Seed treatment", "Sow at 60x20 cm spacing", "Apply basal fertilizer"],
+            "fertilizer_schedule": "DAP 50 kg + MOP 20 kg per acre at sowing",
+            "expected_yield_per_acre": "20-25 quintals"
+          },
+          {
+            "crop_name": "Soybean",
+            "growth_stage": "Sowing",
+            "activities": ["Rhizobium seed treatment", "Sow in rows 45 cm apart", "Pre-emergence weedicide"],
+            "fertilizer_schedule": "DAP 50 kg + Gypsum 50 kg per acre",
+            "expected_yield_per_acre": "8-10 quintals"
+          }
+        ],
+        "vegetable_crops": [
+          {
+            "crop_name": "Okra (Bhindi)",
+            "growth_stage": "Sowing",
+            "activities": ["Sow after first rains", "Row spacing 45 cm", "Seed treatment with Thiram"],
+            "fertilizer_schedule": "FYM + NPK basal dose",
+            "expected_yield_per_acre": "30-40 quintals"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Paddy stem borer", "Maize Fall Armyworm", "Leaf folder"],
+        "recommended_actions": ["Chlorantraniliprole for stem borer", "Emamectin for FAW", "Early monitoring"]
+      },
+      "weather_considerations": {
+        "flood_risk": "Low to Medium",
+        "irrigation_frequency": "Rain-dependent",
+        "special_notes": "Ensure field drainage. Prepare bunds for water retention in paddy."
+      }
+    },
+    "month_7": {
+      "month_name": "July",
+      "hindi_name": "जुलाई",
+      "season": "Peak Kharif / Monsoon",
+      "temperature_range": "28-38°C",
+      "rainfall_pattern": "Heavy rains, peak monsoon",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Paddy",
+            "growth_stage": "Transplanting",
+            "activities": ["Transplant 25-30 day old seedlings", "Maintain 2-3 cm water level", "Apply basal fertilizer", "Weed control"],
+            "fertilizer_schedule": "DAP 40 kg + MOP 15 kg at transplanting",
+            "expected_yield_per_acre": "18-25 quintals"
+          },
+          {
+            "crop_name": "Cotton",
+            "growth_stage": "Vegetative",
+            "activities": ["Topping if excessive growth", "First irrigation after square formation", "Monitor for bollworm"],
+            "fertilizer_schedule": "Top dress with Urea 25 kg/acre",
+            "expected_yield_per_acre": "10-15 quintals (lint)"
+          },
+          {
+            "crop_name": "Groundnut",
+            "growth_stage": "Pegging to Pod Formation",
+            "activities": ["Earthing up for better pegging", "Gypsum application", "Monitor for leaf spot"],
+            "fertilizer_schedule": "Gypsum 80 kg/acre at pegging stage",
+            "expected_yield_per_acre": "10-12 quintals"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Rice Blast", "Cotton Bollworm", "Brown Plant Hopper"],
+        "recommended_actions": ["Tricyclazole for blast", "Bt spray for bollworm", "Imidacloprid for BPH"]
+      },
+      "weather_considerations": {
+        "flood_risk": "High",
+        "waterlogging": "Monitor paddy fields",
+        "special_notes": "Drain excess water from cotton and groundnut fields"
+      }
+    },
+    "month_8": {
+      "month_name": "August",
+      "hindi_name": "अगस्त",
+      "season": "Kharif - Critical Growth",
+      "temperature_range": "28-38°C",
+      "rainfall_pattern": "Continuous monsoon",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Paddy",
+            "growth_stage": "Tillering to Panicle Initiation",
+            "activities": ["Apply first top dressing of Urea", "Maintain water level 5 cm", "Spray for sheath blight if needed"],
+            "fertilizer_schedule": "Urea 20 kg/acre at active tillering",
+            "expected_yield_per_acre": "18-25 quintals"
+          },
+          {
+            "crop_name": "Sugarcane",
+            "growth_stage": "Grand Growth Period",
+            "activities": ["Earthing up", "Propping if needed", "Trash mulching", "Irrigation supplement if less rain"],
+            "fertilizer_schedule": "Top dressing with Urea + MOP",
+            "expected_yield_per_acre": "300-400 quintals"
+          }
+        ],
+        "sowing_preparation": [
+          {
+            "crop_name": "Onion (Rabi nursery)",
+            "activities": ["Prepare raised beds for Rabi onion nursery", "Sow treated seeds"],
+            "fertilizer_schedule": "FYM 2 tonnes per bed"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Paddy Sheath Blight", "Sugarcane Red Rot", "Pyricularia"],
+        "recommended_actions": ["Hexaconazole for sheath blight", "Carbendazim seed sett treatment"]
+      },
+      "weather_considerations": {
+        "irrigation_frequency": "Rain-dependent, supplemental if gap > 10 days",
+        "special_notes": "Critical period for paddy fertilization. Don't delay."
+      }
+    },
+    "month_9": {
+      "month_name": "September",
+      "hindi_name": "सितंबर",
+      "season": "Kharif - Late / Rabi Preparation",
+      "temperature_range": "25-35°C",
+      "rainfall_pattern": "Retreating monsoon",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Paddy",
+            "growth_stage": "Heading to Flowering",
+            "activities": ["Apply panicle initiation dose of Urea", "Stop herbicide application", "Monitor for neck blast"],
+            "fertilizer_schedule": "Urea 15 kg/acre at panicle initiation",
+            "expected_yield_per_acre": "18-25 quintals"
+          },
+          {
+            "crop_name": "Soybean",
+            "growth_stage": "Grain Filling",
+            "activities": ["Stop irrigation", "Monitor for pod borer", "Prepare for harvest"],
+            "fertilizer_schedule": "No fertilizer needed",
+            "expected_yield_per_acre": "8-10 quintals"
+          }
+        ],
+        "rabi_preparation": [
+          {
+            "crop_name": "Wheat",
+            "activities": ["Select certified seeds", "Get seeds treated", "Arrange fertilizers"],
+            "notes": "Timely sowing (Nov 1-15) gives best yield"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Paddy Neck Blast", "Soybean Pod Borer"],
+        "recommended_actions": ["Tricyclazole spray at 50% heading", "Chlorpyrifos for pod borer"]
+      },
+      "weather_considerations": {
+        "special_notes": "Begin land preparation for rabi crops. Apply FYM."
+      }
+    },
+    "month_10": {
+      "month_name": "October",
+      "hindi_name": "अक्टूबर",
+      "season": "Kharif Harvest / Rabi Preparation",
+      "temperature_range": "20-32°C",
+      "rainfall_pattern": "Post-monsoon, mostly dry",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Paddy",
+            "growth_stage": "Harvest",
+            "activities": ["Drain field 2 weeks before harvest", "Harvest at 80% maturity", "Thresh and store properly"],
+            "fertilizer_schedule": "None",
+            "expected_yield_per_acre": "18-25 quintals"
+          },
+          {
+            "crop_name": "Cotton",
+            "growth_stage": "Boll Opening",
+            "activities": ["First picking of open bolls", "Monitor for pink bollworm", "Stop irrigation"],
+            "fertilizer_schedule": "Foliar micronutrient spray",
+            "expected_yield_per_acre": "10-15 quintals"
+          }
+        ],
+        "rabi_sowing": [
+          {
+            "crop_name": "Onion (Rabi transplanting)",
+            "activities": ["Transplant nursery seedlings at 15x10 cm", "Apply basal NPK"],
+            "fertilizer_schedule": "NPK 50:50:50 kg/acre basal"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Paddy Gundhi Bug", "Cotton Pink Bollworm"],
+        "recommended_actions": ["Endosulfan for Gundhi bug", "Pheromone traps for pink bollworm"]
+      },
+      "weather_considerations": {
+        "special_notes": "Best time to apply FYM for Rabi crops. Ensure soil moisture for sowing."
+      }
+    },
+    "month_11": {
+      "month_name": "November",
+      "hindi_name": "नवंबर",
+      "season": "Rabi Sowing",
+      "temperature_range": "10-25°C",
+      "rainfall_pattern": "Dry, cool onset",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Wheat",
+            "growth_stage": "Sowing (Critical Month)",
+            "activities": ["Sow treated seeds", "Apply basal fertilizer", "First irrigation after 20 days", "Ensure proper seed depth (5 cm)"],
+            "fertilizer_schedule": "DAP 50 kg + MOP 20 kg + Zinc Sulphate 5 kg per acre basal",
+            "expected_yield_per_acre": "18-22 quintals"
+          },
+          {
+            "crop_name": "Mustard",
+            "growth_stage": "Sowing to Germination",
+            "activities": ["Sow at 45x15 cm", "Seed treatment with Thiram", "Ensure good seedbed"],
+            "fertilizer_schedule": "DAP 40 kg + Sulphur 10 kg per acre",
+            "expected_yield_per_acre": "6-8 quintals"
+          },
+          {
+            "crop_name": "Gram (Chickpea)",
+            "growth_stage": "Sowing",
+            "activities": ["Rhizobium seed inoculation", "Sow at 30x10 cm", "No irrigation at sowing"],
+            "fertilizer_schedule": "DAP 25 kg + Sulphur 5 kg per acre",
+            "expected_yield_per_acre": "6-8 quintals"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Termites at sowing", "Aphids on Mustard"],
+        "recommended_actions": ["Seed treatment with Chlorpyrifos", "Monitor regularly"]
+      },
+      "weather_considerations": {
+        "frost_risk": "Low",
+        "irrigation_frequency": "Every 20-25 days",
+        "special_notes": "Timely wheat sowing (before Nov 15) is critical for best yield"
+      }
+    },
+    "month_12": {
+      "month_name": "December",
+      "hindi_name": "दिसंबर",
+      "season": "Rabi - Establishment",
+      "temperature_range": "5-18°C",
+      "rainfall_pattern": "Western disturbances, fog",
+      "crops": {
+        "main_crops": [
+          {
+            "crop_name": "Wheat",
+            "growth_stage": "Crown Root Initiation",
+            "activities": ["First irrigation at CRI (3 weeks after sowing)", "Weed control", "Monitor for yellow rust"],
+            "fertilizer_schedule": "Top dress 30 kg Urea/acre at CRI irrigation",
+            "expected_yield_per_acre": "18-22 quintals"
+          },
+          {
+            "crop_name": "Mustard",
+            "growth_stage": "Branching",
+            "activities": ["Thinning to maintain plant spacing", "Irrigation at branching", "Check for aphids"],
+            "fertilizer_schedule": "Top dress 20 kg Urea/acre",
+            "expected_yield_per_acre": "6-8 quintals"
+          }
+        ],
+        "vegetable_crops": [
+          {
+            "crop_name": "Potato",
+            "growth_stage": "Emergence to Early Vegetative",
+            "activities": ["First earthing up", "Irrigation every 10 days", "Monitor for blight"],
+            "fertilizer_schedule": "Top dress Urea 20 kg/acre",
+            "expected_yield_per_acre": "80-100 quintals"
+          }
+        ]
+      },
+      "pest_disease_watch": {
+        "major_threats": ["Yellow Rust on Wheat", "Aphids on Mustard", "Potato Late Blight"],
+        "recommended_actions": ["Propiconazole for rust", "Malathion/Dimethoate for aphids", "Mancozeb for blight"]
+      },
+      "weather_considerations": {
+        "fog_impact": "Reduces solar radiation, increases disease risk",
+        "frost_risk": "Medium to High in North India plains",
+        "special_notes": "Irrigate before expected frost to mitigate damage"
+      }
+    }
+  },
+  "crop_database": {
+    "wheat": {
+      "scientific_name": "Triticum aestivum",
+      "hindi_name": "गेहूँ",
+      "regional_names": {"punjabi": "ਕਣਕ", "gujarati": "ઘઉં", "marathi": "गहू"},
+      "category": "Rabi Cereal",
+      "sowing_season": "Rabi",
+      "sowing_months": [10, 11, 12],
+      "harvest_months": [3, 4],
+      "duration_days": "120-150",
+      "agro_climatic_zones": ["North West Plain", "North East Plain", "Central", "Peninsular"],
+      "soil_requirements": {"type": "Well-drained loam to clay loam", "pH": "6.0-7.5", "organic_matter": "Medium to high"},
+      "water_requirements": {"total_irrigations": "4-6", "critical_stages": ["Crown Root Initiation", "Tillering", "Jointing", "Heading", "Dough stage"]},
+      "major_varieties": ["HD-2967", "HD-3086", "GW-322", "DBW-187", "PBW-343"],
+      "fertilizer_recommendations": {"nitrogen_kg_per_acre": 60, "phosphorus_kg_per_acre": 30, "potassium_kg_per_acre": 15}
+    },
+    "paddy": {
+      "scientific_name": "Oryza sativa",
+      "hindi_name": "धान",
+      "regional_names": {"bengali": "ধান", "tamil": "நெல்", "telugu": "వరి"},
+      "category": "Kharif Cereal",
+      "sowing_season": "Kharif",
+      "sowing_months": [5, 6],
+      "harvest_months": [9, 10, 11],
+      "duration_days": "90-150",
+      "agro_climatic_zones": ["All zones with adequate water"],
+      "soil_requirements": {"type": "Heavy clay to clay loam", "pH": "5.5-7.0", "organic_matter": "Medium"},
+      "water_requirements": {"total_irrigations": "Rain-fed or 20+ irrigations in SRI", "critical_stages": ["Transplanting", "Active Tillering", "Panicle Initiation", "Heading"]},
+      "major_varieties": ["Swarna", "MTU-7029", "Pusa-44", "IR-64", "Samba Mahsuri"],
+      "fertilizer_recommendations": {"nitrogen_kg_per_acre": 50, "phosphorus_kg_per_acre": 20, "potassium_kg_per_acre": 20}
+    },
+    "cotton": {
+      "scientific_name": "Gossypium hirsutum",
+      "hindi_name": "कपास",
+      "regional_names": {"gujarati": "કપાસ", "marathi": "कापूस", "telugu": "పత్తి"},
+      "category": "Kharif Cash Crop",
+      "sowing_season": "Kharif",
+      "sowing_months": [4, 5, 6],
+      "harvest_months": [10, 11, 12],
+      "duration_days": "160-200",
+      "agro_climatic_zones": ["Central", "Peninsular", "North West"],
+      "soil_requirements": {"type": "Black cotton soil (Vertisol)", "pH": "6.5-8.0"},
+      "water_requirements": {"total_irrigations": "4-6", "critical_stages": ["Square formation", "Boll setting"]},
+      "major_varieties": ["Bt hybrids (Bollgard II)", "Non-Bt: LD-327"],
+      "fertilizer_recommendations": {"nitrogen_kg_per_acre": 50, "phosphorus_kg_per_acre": 25, "potassium_kg_per_acre": 25}
+    },
+    "mustard": {
+      "scientific_name": "Brassica juncea",
+      "hindi_name": "सरसों",
+      "regional_names": {"punjabi": "ਸਰੋਂ", "gujarati": "રાઈ"},
+      "category": "Rabi Oilseed",
+      "sowing_season": "Rabi",
+      "sowing_months": [9, 10, 11],
+      "harvest_months": [2, 3],
+      "duration_days": "110-140",
+      "agro_climatic_zones": ["North West Plain", "Central"],
+      "soil_requirements": {"type": "Loam to sandy loam", "pH": "6.0-7.5"},
+      "water_requirements": {"total_irrigations": "2-3", "critical_stages": ["Seedling", "Flowering", "Pod formation"]},
+      "major_varieties": ["Pusa Bold", "Varuna", "Rohini", "RH-749"],
+      "fertilizer_recommendations": {"nitrogen_kg_per_acre": 30, "phosphorus_kg_per_acre": 15, "sulphur_kg_per_acre": 10}
+    },
+    "sugarcane": {
+      "scientific_name": "Saccharum officinarum",
+      "hindi_name": "गन्ना",
+      "regional_names": {"tamil": "கரும்பு", "telugu": "చెరకు", "marathi": "ऊस"},
+      "category": "Kharif Cash Crop (Perennial)",
+      "sowing_season": "Spring (Feb-Mar) or Autumn (Sep-Oct)",
+      "sowing_months": [2, 3, 9, 10],
+      "harvest_months": [11, 12, 1, 2, 3],
+      "duration_days": "270-365",
+      "agro_climatic_zones": ["North West", "Central", "Peninsular"],
+      "soil_requirements": {"type": "Deep loam to clay loam", "pH": "6.5-7.5"},
+      "water_requirements": {"total_irrigations": "8-10", "critical_stages": ["Germination", "Grand growth", "Ripening"]},
+      "major_varieties": ["CoJ-64", "Co-0238", "CoPant-90223", "CoSe-92423"],
+      "fertilizer_recommendations": {"nitrogen_kg_per_acre": 80, "phosphorus_kg_per_acre": 30, "potassium_kg_per_acre": 30}
+    },
+    "gram": {
+      "scientific_name": "Cicer arietinum",
+      "hindi_name": "चना",
+      "regional_names": {"gujarati": "ચણા", "marathi": "हरभरा", "punjabi": "ਛੋਲੇ"},
+      "category": "Rabi Pulse",
+      "sowing_season": "Rabi",
+      "sowing_months": [10, 11],
+      "harvest_months": [2, 3],
+      "duration_days": "90-110",
+      "agro_climatic_zones": ["Central", "North West", "Peninsular"],
+      "soil_requirements": {"type": "Sandy loam to loam", "pH": "6.0-7.5"},
+      "water_requirements": {"total_irrigations": "1-2", "critical_stages": ["Branching", "Pod formation"]},
+      "major_varieties": ["JG-11", "Pusa-256", "KAK-2", "HC-5"],
+      "fertilizer_recommendations": {"nitrogen_kg_per_acre": 8, "phosphorus_kg_per_acre": 20, "rhizobium_inoculation": true}
+    },
+    "potato": {
+      "scientific_name": "Solanum tuberosum",
+      "hindi_name": "आलू",
+      "regional_names": {"bengali": "আলু", "tamil": "உருளைக்கிழங்கு"},
+      "category": "Rabi Vegetable",
+      "sowing_season": "Rabi",
+      "sowing_months": [9, 10, 11],
+      "harvest_months": [1, 2, 3],
+      "duration_days": "70-100",
+      "agro_climatic_zones": ["North West Plain", "Eastern Plain", "Hills"],
+      "soil_requirements": {"type": "Sandy loam", "pH": "5.2-6.4"},
+      "water_requirements": {"total_irrigations": "4-5", "critical_stages": ["Tuber initiation", "Tuber bulking"]},
+      "major_varieties": ["Kufri Jyoti", "Kufri Badshah", "Kufri Pukhraj", "Kufri Sindhuri"],
+      "fertilizer_recommendations": {"nitrogen_kg_per_acre": 60, "phosphorus_kg_per_acre": 25, "potassium_kg_per_acre": 50}
+    },
+    "onion": {
+      "scientific_name": "Allium cepa",
+      "hindi_name": "प्याज",
+      "regional_names": {"marathi": "कांदा", "telugu": "ఉల్లిపాయ", "tamil": "வெங்காயம்"},
+      "category": "Rabi/Kharif Vegetable",
+      "sowing_season": "Rabi (Oct-Nov nursery) or Kharif (June nursery)",
+      "sowing_months": [10, 11, 6],
+      "harvest_months": [3, 4, 5, 11],
+      "duration_days": "120-150",
+      "agro_climatic_zones": ["Peninsular", "Central", "North West"],
+      "soil_requirements": {"type": "Sandy loam to clay loam", "pH": "6.0-7.0"},
+      "water_requirements": {"total_irrigations": "8-10", "critical_stages": ["After transplanting", "Bulb formation"]},
+      "major_varieties": ["Agrifound Dark Red", "Bhima Kiran", "N-2-4-1", "Pusa Red"],
+      "fertilizer_recommendations": {"nitrogen_kg_per_acre": 40, "phosphorus_kg_per_acre": 25, "potassium_kg_per_acre": 25}
+    }
+  }
+}
